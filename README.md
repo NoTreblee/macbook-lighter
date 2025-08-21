@@ -1,13 +1,15 @@
 # mackbook-lighter
 
+Fork of harttle/macbook-lighter with added SPI support
+
 MacBook keyboard and screen backlight adjust on the ambient light.
 Internally, macbook-lighter reads the following files:
 
 * /sys/devices/platform/applesmc.768/light
 * /sys/class/backlight/intel_backlight/brightness
 * /sys/class/backlight/intel_backlight/max_brightness
-* /sys/class/leds/smc::kbd_backlight/brightness
-* /sys/class/leds/smc::kbd_backlight/max_brightness
+* /sys/class/leds/spi::kbd_backlight/brightness
+* /sys/class/leds/spi::kbd_backlight/max_brightness
 
 So you're expected to install corresponding Nvidia/Intel drivers first.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 intel_dir=/sys/class/backlight/intel_backlight
-kbd_dir=/sys/class/leds/smc::kbd_backlight
+kbd_dir=/sys/class/leds/spi::kbd_backlight
 
 power_file=/sys/class/power_supply/ADP1/online
 screen_file=$intel_dir/brightness
