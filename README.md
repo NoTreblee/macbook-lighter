@@ -1,5 +1,3 @@
-# mackbook-lighter
-
 Fork of harttle/macbook-lighter with added SPI support
 
 MacBook keyboard and screen backlight adjust on the ambient light.
