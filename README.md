@@ -52,5 +52,4 @@ macbook-lighter-ambient
 
 ## Tested MacBook Versions
 
-* MacBook Pro Late 2013 (11,1)
-* Macbook Air 2012
+* MacBook Pro 13" 2017 (14,1)
